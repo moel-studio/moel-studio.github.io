@@ -50,3 +50,5 @@ header{height:76px;position:absolute;left:0;right:0;background:transparent;color
 @media(max-width:700px){header{height:76px;padding:0 22px}.hero{min-height:850px;height:100svh}.hero-copy{min-height:850px;width:calc(100% - 44px);padding:115px 0 105px}.hero h1{font-size:29px;line-height:1.65}.hero-lead{font-size:14px}.hero-image{height:100%;min-height:0}.hero-image video{object-position:center}}@media(max-width:360px){.hero h1{font-size:26px}}
 /* Anchor hero copy lower to keep the treatment visible above it. */
 .hero-copy{justify-content:flex-end;padding-top:180px;padding-bottom:65px}.hero-image:after{background:linear-gradient(180deg,#21170f2e 0%,#281b1052 30%,#28180fb3 65%,#28180fe6 100%)}@media(max-width:700px){.hero-copy{justify-content:flex-end;min-height:max(850px,100svh);padding-top:190px;padding-bottom:55px}.hero{min-height:max(850px,100svh);height:auto}.hero-image:after{background:linear-gradient(180deg,#21170f26 0%,#281b1040 25%,#28180fb0 55%,#28180fe8 100%)}}
+
+.story-photo .director-profile{display:block;width:100%;max-width:420px;height:auto;object-fit:contain;margin:0 auto;border:1px solid #876a50;padding:8px;background:#302018}
